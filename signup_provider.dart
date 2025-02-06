@@ -21,7 +21,7 @@ class SignUpProvider with ChangeNotifier {
   final FlutterSecureStorage _storage = FlutterSecureStorage();
 
   Future<bool> sendSignUpRequest(String name, String email, String password) async {
-    // Input Validations
+    
     if (!Validators.validateName(name)) {
       _errorMessage = 'Name must be at least 2 characters';
       notifyListeners();
