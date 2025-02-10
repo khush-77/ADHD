@@ -174,7 +174,7 @@ void _navigateToProfilePage(BuildContext context) {
                           ),
                         ),
                         const SizedBox(height: 16),
-                        // Password TextField
+                        
                         Text('Password',
                             style: GoogleFonts.lato(
                               textStyle: TextStyle(
