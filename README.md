@@ -1,2 +1,0 @@
-# ADHD
-symptom tracker

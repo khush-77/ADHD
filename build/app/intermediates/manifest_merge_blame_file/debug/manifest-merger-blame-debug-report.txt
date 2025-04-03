@@ -1,0 +1,459 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.adhd_tracker"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:9:5-67
+15-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+16-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:2:5-78
+16-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:2:22-76
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:3:5-76
+17-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:3:22-74
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:4:5-67
+18-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:4:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+19-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:5:5-84
+19-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:5:22-82
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:6:5-65
+20-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:6:22-63
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:7:5-80
+21-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:7:22-78
+22    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+22-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:8:5-73
+22-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:8:22-71
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:10:5-80
+23-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:10:22-78
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:11:5-79
+24-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:11:22-77
+25    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+25-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:12:5-75
+25-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:12:22-73
+26    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+26-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:13:5-74
+26-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:13:22-72
+27    <!--
+28 Required to query activities that can process text, see:
+29         https://developer.android.com/training/package-visibility and
+30         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+31
+32         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+33    -->
+34    <queries>
+34-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:53:5-58:15
+35        <intent>
+35-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:54:9-57:18
+36            <action android:name="android.intent.action.PROCESS_TEXT" />
+36-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:55:13-72
+36-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:55:21-70
+37
+38            <data android:mimeType="text/plain" />
+38-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:56:13-50
+38-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:56:19-48
+39        </intent>
+40        <intent>
+40-->[:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:18
+41            <action android:name="android.intent.action.GET_CONTENT" />
+41-->[:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-72
+41-->[:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-69
+42
+43            <data android:mimeType="*/*" />
+43-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:56:13-50
+43-->/Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:56:19-48
+44        </intent>
+45    </queries>
+46
+47    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+47-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-89
+47-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-86
+48    <uses-permission
+48-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:10:5-12:38
+49        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+49-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:11:9-77
+50        android:maxSdkVersion="22" />
+50-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:12:9-35
+51
+52    <permission
+52-->[androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+53        android:name="com.example.adhd_tracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.example.adhd_tracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+56-->[androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+57    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+58    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+59    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+60    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+61    <!-- for Samsung -->
+62    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+63    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+63-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+63-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+64    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+65    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+66    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+67    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+68    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+69    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+70    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+71    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+72    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+72-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+72-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+73    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+73-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+73-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+74    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+74-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+74-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+75    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+75-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+75-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+76    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+76-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+76-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+77    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+77-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+77-->[me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+78
+79    <application
+80        android:name="android.app.Application"
+81        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+81-->[androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+82        android:debuggable="true"
+83        android:extractNativeLibs="false"
+84        android:icon="@mipmap/ic_launcher"
+85        android:label="adhd_tracker" >
+86        <receiver
+87            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+88            android:exported="false" />
+89
+90        <activity
+91            android:name="com.example.adhd_tracker.MainActivity"
+92            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+93            android:exported="true"
+94            android:hardwareAccelerated="true"
+95            android:launchMode="singleTop"
+96            android:taskAffinity=""
+97            android:theme="@style/LaunchTheme"
+98            android:windowSoftInputMode="adjustResize" >
+99
+100            <!--
+101                 Specifies an Android theme to apply to this Activity as soon as
+102                 the Android process has started. This theme is visible to the user
+103                 while the Flutter UI initializes. After that, this theme continues
+104                 to determine the Window background behind the Flutter UI.
+105            -->
+106            <meta-data
+107                android:name="io.flutter.embedding.android.NormalTheme"
+108                android:resource="@style/NormalTheme" />
+109
+110            <intent-filter>
+111                <action android:name="android.intent.action.MAIN" />
+112
+113                <category android:name="android.intent.category.LAUNCHER" />
+114            </intent-filter>
+115        </activity>
+116        <!--
+117             Don't delete the meta-data below.
+118             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+119        -->
+120        <meta-data
+121            android:name="flutterEmbedding"
+122            android:value="2" />
+123
+124        <receiver
+124-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-15:39
+125            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+125-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-89
+126            android:exported="true" />
+126-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-36
+127        <receiver
+127-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:39
+128            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+128-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-92
+129            android:exported="true" />
+129-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-36
+130        <receiver
+130-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:39
+131            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+131-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-92
+132            android:exported="true" />
+132-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+133        <receiver
+133-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-36:20
+134            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+134-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-87
+135            android:enabled="true"
+135-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+136            android:exported="true" >
+136-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+137            <intent-filter>
+137-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-35:29
+138                <category android:name="android.intent.category.DEFAULT" />
+138-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-76
+138-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:27-73
+139
+140                <action android:name="android.intent.action.BOOT_COMPLETED" />
+140-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-79
+140-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-76
+141                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+141-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-86
+141-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-83
+142                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+142-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-84
+142-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-81
+143                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+143-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-82
+143-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-79
+144                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+144-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-82
+144-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-79
+145                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+145-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:34:17-107
+145-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:34:25-104
+146            </intent-filter>
+147        </receiver>
+148
+149        <service
+149-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-41:72
+150            android:name="me.carda.awesome_notifications.DartBackgroundService"
+150-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-80
+151            android:exported="false"
+151-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-37
+152            android:permission="android.permission.BIND_JOB_SERVICE" />
+152-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-69
+153        <service
+153-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:42:9-47:43
+154            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+154-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-90
+155            android:enabled="true"
+155-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-35
+156            android:exported="false"
+156-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-37
+157            android:foregroundServiceType="phoneCall"
+157-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-54
+158            android:stopWithTask="true" />
+158-->[:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-40
+159
+160        <provider
+160-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
+161            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+161-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
+162            android:authorities="com.example.adhd_tracker.flutter.image_provider"
+162-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+163            android:exported="false"
+163-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+164            android:grantUriPermissions="true" >
+164-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+165            <meta-data
+165-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+166                android:name="android.support.FILE_PROVIDER_PATHS"
+166-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+167                android:resource="@xml/flutter_image_picker_file_paths" />
+167-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+168        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+169        <service
+169-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
+170            android:name="com.google.android.gms.metadata.ModuleDependencies"
+170-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
+171            android:enabled="false"
+171-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+172            android:exported="false" >
+172-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+173            <intent-filter>
+173-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+174                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+174-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
+174-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
+175            </intent-filter>
+176
+177            <meta-data
+177-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
+178                android:name="photopicker_activity:0:required"
+178-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
+179                android:value="" />
+179-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
+180        </service>
+181        <!--
+182           Declares a provider which allows us to store files to share in
+183           '.../caches/share_plus' and grant the receiving action access
+184        -->
+185        <provider
+185-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:20
+186            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+186-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-77
+187            android:authorities="com.example.adhd_tracker.flutter.share_provider"
+187-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-74
+188            android:exported="false"
+188-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+189            android:grantUriPermissions="true" >
+189-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
+190            <meta-data
+190-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+191                android:name="android.support.FILE_PROVIDER_PATHS"
+191-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+192                android:resource="@xml/flutter_share_file_paths" />
+192-->[:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+193        </provider>
+194        <!--
+195           This manifest declared broadcast receiver allows us to use an explicit
+196           Intent when creating a PendingItent to be informed of the user's choice
+197        -->
+198        <receiver
+198-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-32:20
+199            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+199-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-82
+200            android:exported="false" >
+200-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+201            <intent-filter>
+201-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+202                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+202-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-65
+202-->[:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-62
+203            </intent-filter>
+204        </receiver>
+205
+206        <service
+206-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:21:9-28:19
+207            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
+207-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:22:13-89
+208            android:exported="true"
+208-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:23:13-36
+209            android:label="My Notification Listener Service" >
+209-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:24:13-61
+210            <intent-filter>
+210-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:25:13-27:29
+211                <action android:name="android.service.notification.NotificationListenerService" />
+211-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:26:17-99
+211-->[me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:26:25-96
+212            </intent-filter>
+213        </service>
+214
+215        <provider
+215-->[androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+216            android:name="androidx.startup.InitializationProvider"
+216-->[androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+217            android:authorities="com.example.adhd_tracker.androidx-startup"
+217-->[androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+218            android:exported="false" >
+218-->[androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+219            <meta-data
+219-->[androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+220                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+220-->[androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+221                android:value="androidx.startup" />
+221-->[androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+222            <meta-data
+222-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+223                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+223-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+224                android:value="androidx.startup" />
+224-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+225            <meta-data
+225-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+226                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+226-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+227                android:value="androidx.startup" />
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+228        </provider>
+229
+230        <uses-library
+230-->[androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+231            android:name="androidx.window.extensions"
+231-->[androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+232            android:required="false" />
+232-->[androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+233        <uses-library
+233-->[androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+234            android:name="androidx.window.sidecar"
+234-->[androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+235            android:required="false" />
+235-->[androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+236
+237        <service
+237-->[androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+238            android:name="androidx.room.MultiInstanceInvalidationService"
+238-->[androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+239            android:directBootAware="true"
+239-->[androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+240            android:exported="false" />
+240-->[androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+241
+242        <receiver
+242-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+243            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+244            android:directBootAware="false"
+244-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+245            android:enabled="true"
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+246            android:exported="true"
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+247            android:permission="android.permission.DUMP" >
+247-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+248            <intent-filter>
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+249                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+250            </intent-filter>
+251            <intent-filter>
+251-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+252                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+253            </intent-filter>
+254            <intent-filter>
+254-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+255                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+256            </intent-filter>
+257            <intent-filter>
+257-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+258                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+259            </intent-filter>
+260        </receiver>
+261    </application>
+262
+263</manifest>

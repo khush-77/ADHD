@@ -1,0 +1,709 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:14:5-47:19
+INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-48:19
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-48:19
+MERGED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
+MERGED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
+MERGED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-33:19
+MERGED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-33:19
+MERGED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:14:5-29:19
+MERGED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:14:5-29:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9d25ac56a1ace6b006bc038f779c6c5b/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9d25ac56a1ace6b006bc038f779c6c5b/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/01f288ffef4e614019fbd952081d9c60/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/01f288ffef4e614019fbd952081d9c60/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c35e75b71a50a582908623ee567a70c1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c35e75b71a50a582908623ee567a70c1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/35328dca83d9a283c48d9396b64c571b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/35328dca83d9a283c48d9396b64c571b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:1:1-59:12
+MERGED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:1:1-59:12
+INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-50:12
+MERGED from [:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-34:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_secure_storage] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:path_provider_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-35:12
+MERGED from [:shared_preferences_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c456ca8d7d4ca3478527c8294fe02745/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9d25ac56a1ace6b006bc038f779c6c5b/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/91bc3c42089ea0c0517cab26f20389e7/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/01f288ffef4e614019fbd952081d9c60/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7301793ca2a03f6a29efc3b3f3abb641/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e672feca2a569f9581596d0e8ea196a0/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/4fdce5cbd04f3ea0c4a05e2fcce8560c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/83ab5d0976631cd35e88bcdc1d47d67d/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9f49f490c68774234d1f43dca2e88c8a/transformed/jetified-activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/65cd6f4576c2e3051c0d0773fdadbfa8/transformed/jetified-activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0e047bdac4c9fc443f88597f9d5896cc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b5adf5f689265ee778ee4b80acdf25f4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/864dbce472d52ceae22e3273639fc26d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/f94479e59c4b0702bf6ecfd70f8f3e02/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7f466a725c49d06f5934616c14fea721/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0030c1c432df073ddce26ca7fe6977a1/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/354b64bb87a4a2141aa5a5d5f094f3a8/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/566236441469ddf6ed10d2c19d825df0/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/86697f3f761a697d62ea02f206ef6790/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/98830a548c48112bb5109c7ef5a4575c/transformed/lifecycle-reactivestreams-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3589e631ef7cd95dc2628b6da91873a7/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/caa2f6dc3c9ef6ff1e78fa27da309214/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9d77c9342cd6dc69c323d8398e525c14/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/04ca9f0066c4d6c5addebb5a6d1f9d19/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/23757324dc76afc928a43f7f235c7e7d/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3e8e29bbfe964a98e969affe3019f0d5/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/4699d3488e11fad279a648024a5cf982/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.webkit:webkit:1.12.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/780003885bdb25adfbf4fb1da0e44f16/transformed/webkit-1.12.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5afde0495e6ef2ca2fdcba156df82e9d/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e8dcd277ade840ba8889aebc8accb6b7/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.media:media:1.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e6b0269e3eb1921b762f3610ef2f9b45/transformed/media-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/6bd3a636de92f9213cd6f09379c35ac6/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/33854a848eff633d37c01044ae4efab4/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/13d342a1e24737569000643f0474e3d6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/ce8eacdef3ed14d9a1551101e473a4ae/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/ab8cfc9001f80af48632c52c23a06672/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/022c3a6f0837c6cb76242c423c08e2fd/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/da24e5e3e3098849e356a9821ce18fe0/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/d2406a43ae7006a41820c62a7769dd89/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3c1010113eb83cdaba5bc16d3fb3a704/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/4f7d190aa85412d9637f193ef195bfff/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9c5b574c5d45396f2f360df14b08e8a8/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/dhruvbalchandani/.gradle/caches/transforms-3/d1502298e8a73d30a080614e5f4ed761/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c35e75b71a50a582908623ee567a70c1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0ac764909ea2e8e9dcff98caeff88d3d/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/686f803b9dc6437d0544bd00a0eb00ec/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/35328dca83d9a283c48d9396b64c571b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0fa770b1fb4ee24b72521a95542b8645/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/2e70fea22a73f7417e317f752e218c0d/transformed/jetified-datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/8f37b832bdd0753754a4b614a1f16b06/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/cc2e36a1a11aa562594193b2bdfd8fec/transformed/jetified-datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/f4ef57e4609530c57dc4937ab06bbd93/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/1d2405799e146d72bb9aad4de1b6ec8b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/800eb27989c359d46c573aa52d67289d/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9ce8542cb62d532962794e0231a3bfe7/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e6a3f35738098346a6cf0415c4701831/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/523de9a16fde8cad90cdd30d77554645/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/90ec154bd75c3830037e0f04972e200e/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/dhruvbalchandani/.gradle/caches/transforms-3/f44a32e8562e7c3e7329ed21bdf4aea4/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+	package
+		INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:2:5-78
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:2:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:3:5-76
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-77
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-77
+MERGED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:9:5-77
+MERGED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:3:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:4:22-65
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:5:5-84
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:5:22-82
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:6:5-65
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:6:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:7:5-80
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.USE_EXACT_ALARM
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:8:22-71
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:9:5-67
+MERGED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:9:5-67
+MERGED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:13:22-72
+queries
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:53:5-58:15
+MERGED from [:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:15
+MERGED from [:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:54:9-57:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:55:13-72
+	android:name
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:55:21-70
+data
+ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:56:13-50
+	android:mimeType
+		ADDED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/main/AndroidManifest.xml:56:19-48
+uses-sdk
+INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_secure_storage] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:53
+MERGED from [:flutter_secure_storage] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:53
+MERGED from [:path_provider_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:5:5-7:41
+MERGED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c456ca8d7d4ca3478527c8294fe02745/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c456ca8d7d4ca3478527c8294fe02745/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.11.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9d25ac56a1ace6b006bc038f779c6c5b/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9d25ac56a1ace6b006bc038f779c6c5b/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/91bc3c42089ea0c0517cab26f20389e7/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/91bc3c42089ea0c0517cab26f20389e7/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/01f288ffef4e614019fbd952081d9c60/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/01f288ffef4e614019fbd952081d9c60/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7301793ca2a03f6a29efc3b3f3abb641/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7301793ca2a03f6a29efc3b3f3abb641/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e672feca2a569f9581596d0e8ea196a0/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e672feca2a569f9581596d0e8ea196a0/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/4fdce5cbd04f3ea0c4a05e2fcce8560c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/4fdce5cbd04f3ea0c4a05e2fcce8560c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/83ab5d0976631cd35e88bcdc1d47d67d/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/83ab5d0976631cd35e88bcdc1d47d67d/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9f49f490c68774234d1f43dca2e88c8a/transformed/jetified-activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9f49f490c68774234d1f43dca2e88c8a/transformed/jetified-activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/65cd6f4576c2e3051c0d0773fdadbfa8/transformed/jetified-activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/65cd6f4576c2e3051c0d0773fdadbfa8/transformed/jetified-activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0e047bdac4c9fc443f88597f9d5896cc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0e047bdac4c9fc443f88597f9d5896cc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b5adf5f689265ee778ee4b80acdf25f4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b5adf5f689265ee778ee4b80acdf25f4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/864dbce472d52ceae22e3273639fc26d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/864dbce472d52ceae22e3273639fc26d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/f94479e59c4b0702bf6ecfd70f8f3e02/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/f94479e59c4b0702bf6ecfd70f8f3e02/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7f466a725c49d06f5934616c14fea721/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7f466a725c49d06f5934616c14fea721/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0030c1c432df073ddce26ca7fe6977a1/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0030c1c432df073ddce26ca7fe6977a1/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/354b64bb87a4a2141aa5a5d5f094f3a8/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/354b64bb87a4a2141aa5a5d5f094f3a8/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/566236441469ddf6ed10d2c19d825df0/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/566236441469ddf6ed10d2c19d825df0/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/86697f3f761a697d62ea02f206ef6790/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/86697f3f761a697d62ea02f206ef6790/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/98830a548c48112bb5109c7ef5a4575c/transformed/lifecycle-reactivestreams-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/98830a548c48112bb5109c7ef5a4575c/transformed/lifecycle-reactivestreams-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3589e631ef7cd95dc2628b6da91873a7/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3589e631ef7cd95dc2628b6da91873a7/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/caa2f6dc3c9ef6ff1e78fa27da309214/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/caa2f6dc3c9ef6ff1e78fa27da309214/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9d77c9342cd6dc69c323d8398e525c14/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9d77c9342cd6dc69c323d8398e525c14/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/04ca9f0066c4d6c5addebb5a6d1f9d19/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/04ca9f0066c4d6c5addebb5a6d1f9d19/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/23757324dc76afc928a43f7f235c7e7d/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/23757324dc76afc928a43f7f235c7e7d/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3e8e29bbfe964a98e969affe3019f0d5/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3e8e29bbfe964a98e969affe3019f0d5/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/4699d3488e11fad279a648024a5cf982/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/4699d3488e11fad279a648024a5cf982/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/780003885bdb25adfbf4fb1da0e44f16/transformed/webkit-1.12.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/780003885bdb25adfbf4fb1da0e44f16/transformed/webkit-1.12.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5afde0495e6ef2ca2fdcba156df82e9d/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5afde0495e6ef2ca2fdcba156df82e9d/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e8dcd277ade840ba8889aebc8accb6b7/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e8dcd277ade840ba8889aebc8accb6b7/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.media:media:1.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e6b0269e3eb1921b762f3610ef2f9b45/transformed/media-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e6b0269e3eb1921b762f3610ef2f9b45/transformed/media-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/6bd3a636de92f9213cd6f09379c35ac6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/6bd3a636de92f9213cd6f09379c35ac6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/33854a848eff633d37c01044ae4efab4/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/33854a848eff633d37c01044ae4efab4/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/13d342a1e24737569000643f0474e3d6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/13d342a1e24737569000643f0474e3d6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/ce8eacdef3ed14d9a1551101e473a4ae/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/ce8eacdef3ed14d9a1551101e473a4ae/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/ab8cfc9001f80af48632c52c23a06672/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/ab8cfc9001f80af48632c52c23a06672/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/022c3a6f0837c6cb76242c423c08e2fd/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/022c3a6f0837c6cb76242c423c08e2fd/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/da24e5e3e3098849e356a9821ce18fe0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/da24e5e3e3098849e356a9821ce18fe0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/d2406a43ae7006a41820c62a7769dd89/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/d2406a43ae7006a41820c62a7769dd89/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3c1010113eb83cdaba5bc16d3fb3a704/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3c1010113eb83cdaba5bc16d3fb3a704/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/4f7d190aa85412d9637f193ef195bfff/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/4f7d190aa85412d9637f193ef195bfff/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9c5b574c5d45396f2f360df14b08e8a8/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9c5b574c5d45396f2f360df14b08e8a8/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/dhruvbalchandani/.gradle/caches/transforms-3/d1502298e8a73d30a080614e5f4ed761/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/dhruvbalchandani/.gradle/caches/transforms-3/d1502298e8a73d30a080614e5f4ed761/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c35e75b71a50a582908623ee567a70c1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c35e75b71a50a582908623ee567a70c1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0ac764909ea2e8e9dcff98caeff88d3d/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0ac764909ea2e8e9dcff98caeff88d3d/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/686f803b9dc6437d0544bd00a0eb00ec/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/686f803b9dc6437d0544bd00a0eb00ec/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/35328dca83d9a283c48d9396b64c571b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/35328dca83d9a283c48d9396b64c571b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0fa770b1fb4ee24b72521a95542b8645/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/0fa770b1fb4ee24b72521a95542b8645/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/2e70fea22a73f7417e317f752e218c0d/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/2e70fea22a73f7417e317f752e218c0d/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/8f37b832bdd0753754a4b614a1f16b06/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/8f37b832bdd0753754a4b614a1f16b06/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/cc2e36a1a11aa562594193b2bdfd8fec/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/cc2e36a1a11aa562594193b2bdfd8fec/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/f4ef57e4609530c57dc4937ab06bbd93/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/f4ef57e4609530c57dc4937ab06bbd93/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/1d2405799e146d72bb9aad4de1b6ec8b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/1d2405799e146d72bb9aad4de1b6ec8b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/800eb27989c359d46c573aa52d67289d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/800eb27989c359d46c573aa52d67289d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9ce8542cb62d532962794e0231a3bfe7/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/9ce8542cb62d532962794e0231a3bfe7/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e6a3f35738098346a6cf0415c4701831/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/e6a3f35738098346a6cf0415c4701831/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/523de9a16fde8cad90cdd30d77554645/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/523de9a16fde8cad90cdd30d77554645/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/90ec154bd75c3830037e0f04972e200e/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/90ec154bd75c3830037e0f04972e200e/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/dhruvbalchandani/.gradle/caches/transforms-3/f44a32e8562e7c3e7329ed21bdf4aea4/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/dhruvbalchandani/.gradle/caches/transforms-3/f44a32e8562e7c3e7329ed21bdf4aea4/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [:flutter_secure_storage] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-50
+	android:targetSdkVersion
+		INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-89
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-86
+receiver#me.carda.awesome_notifications.DartNotificationActionReceiver
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-15:39
+	android:exported
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-89
+receiver#me.carda.awesome_notifications.DartDismissedNotificationReceiver
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:39
+	android:exported
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-92
+receiver#me.carda.awesome_notifications.DartScheduledNotificationReceiver
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:39
+	android:exported
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-92
+receiver#me.carda.awesome_notifications.DartRefreshSchedulesReceiver
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-36:20
+	android:enabled
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+	android:exported
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-87
+intent-filter#action:name:android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-35:29
+category#android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-76
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:27-73
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-79
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-86
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-83
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-84
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-79
+action#android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:34:17-107
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:34:25-104
+service#me.carda.awesome_notifications.DartBackgroundService
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-41:72
+	android:exported
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-37
+	android:permission
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-80
+service#me.carda.awesome_notifications.core.services.ForegroundService
+ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:42:9-47:43
+MERGED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:15:9-20:43
+MERGED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:15:9-20:43
+	android:enabled
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-37
+	android:stopWithTask
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-40
+	android:foregroundServiceType
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-54
+	android:name
+		ADDED from [:awesome_notifications] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-90
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-72
+	android:name
+		ADDED from [:file_picker] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-69
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
+	android:enabled
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+	android:exported
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+	tools:ignore
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-40
+	android:name
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
+	android:name
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
+	android:value
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
+	android:name
+		ADDED from [:image_picker_android] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
+provider#dev.fluttercommunity.plus.share.ShareFileProvider
+ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:20
+	android:grantUriPermissions
+		ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
+	android:authorities
+		ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-74
+	android:exported
+		ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-77
+receiver#dev.fluttercommunity.plus.share.SharePlusPendingIntent
+ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-32:20
+	android:exported
+		ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-82
+intent-filter#action:name:EXTRA_CHOSEN_COMPONENT
+ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+action#EXTRA_CHOSEN_COMPONENT
+ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-65
+	android:name
+		ADDED from [:share_plus] /Users/dhruvbalchandani/Downloads/adhd_symptom_tracker-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-62
+uses-permission#android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:10:5-12:38
+	android:maxSdkVersion
+		ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:11:9-77
+service#me.carda.awesome_notifications.core.managers.StatusBarManager
+ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:21:9-28:19
+	android:label
+		ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:24:13-61
+	android:exported
+		ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:22:13-89
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:25:13-27:29
+action#android.service.notification.NotificationListenerService
+ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:26:17-99
+	android:name
+		ADDED from [me.carda:AndroidAwnCore:0.8.3] /Users/dhruvbalchandani/.gradle/caches/transforms-3/b47556e903ca9ebc8f0b14367a2136c9/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:26:25-96
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c35e75b71a50a582908623ee567a70c1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/c35e75b71a50a582908623ee567a70c1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/52f4c34d22b19cc4715f15cc5d15bbe1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/585e63c722980b39c8957894ac5d7dd6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/adbfb7929245d719487b62a69412a9cd/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.adhd_tracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.adhd_tracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/7d0ba6c8067cb5a821954f52d16a16bf/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/dhruvbalchandani/.gradle/caches/transforms-3/754f660b95839f0deb403da4030c33d1/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/dhruvbalchandani/.gradle/caches/transforms-3/5934fb4a626a8f1614fa11d322d15648/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/dhruvbalchandani/.gradle/caches/transforms-3/3261125899eca1c37da28887a05905ec/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

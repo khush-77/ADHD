@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/raw_res_water.mp3.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/raw/res_water.mp3"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/drawable_logo.png.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/drawable-v21_launch_background.xml.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/raw_res_chime.mp3.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/raw/res_chime.mp3"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/raw_res_electronic.mp3.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/raw/res_electronic.mp3"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/raw_res_default_sound.mp3.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/raw/res_default_sound.mp3"
+    },
+    {
+        "merged": "com.example.adhd_tracker.app-merged_res-57:/raw_res_bell.mp3.flat",
+        "source": "com.example.adhd_tracker.app-main-52:/raw/res_bell.mp3"
+    }
+]

@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+drawable launch_background
+drawable logo
+mipmap ic_launcher
+raw res_bell
+raw res_chime
+raw res_default_sound
+raw res_electronic
+raw res_water
+style LaunchTheme
+style NormalTheme
