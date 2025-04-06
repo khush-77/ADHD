@@ -229,16 +229,6 @@ class _SettingsPageState extends State<SettingsPage> {
                 ),
                 _buildDivider(),
                 _buildListTile(
-                  icon: Icons.web,
-                  title: 'Resources',
-                  subtitle: 'Helpful Resources',
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => ResourcesPage()),
-                  ),
-                ),
-                _buildDivider(),
-                _buildListTile(
                   icon: Icons.share,
                   title: 'Share the app',
                   onTap: () => Share.share(
